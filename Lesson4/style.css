@@ -1,0 +1,56 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.wrapper {
+  width: 30%;
+  margin: 0 auto;
+  padding: 50px 0;
+  text-align: center;
+
+  .title {
+    font-size: 30px;
+    margin-bottom: 20px;
+  }
+
+  .login-form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+    input {
+      padding: 10px 15px;
+      border: 1px solid black;
+      border-radius: 6px;
+      outline: none;
+    }
+
+    button[type="submit"] {
+      background-color: #6f1dc9;
+      color: #fff;
+      padding: 10px 0;
+      border: none;
+      border-radius: 6px;
+    }
+  }
+
+  .action-btns {
+    display: flex;
+    justify-content: space-between;
+    gap: 5px;
+
+    button {
+        width: 33.33%;
+        padding: 10px 0;
+        border: none;
+        border-radius: 4px;
+        color: #fff;
+        background-color: red;
+    }
+  }
+
+  .text-capitalize {
+    text-transform: capitalize;
+  }
+}
